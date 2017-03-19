@@ -1,0 +1,7 @@
+"""
+ Please Rename this file as config.py before running
+"""
+consumer_key = 'YOUR-CONSUMER-KEY'
+consumer_secret = 'YOUR-CONSUMER-SECRET'
+access_token = 'YOUR-ACCESS-TOKEN'
+access_secret = 'YOUR-ACCESS-SECRET'
