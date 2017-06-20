@@ -35,3 +35,17 @@ Data Collection:
 In this paper they exclude Standard count and other dimmensions features to eliminate what is likely to be nouse on the type of text they have. Because the document is not coherent.The exceptions are that they included word count, words per sentence and swear word counts
 4. (14 features) MRC Language Features.
 5. Sentimental analysis of each user's tweets using diccionary that assigns words sentiment values of -1 and +1 scale, computed a score that was the average sentimetn score for all words used in their list of tweets/
+
+# Model
+Use first Pearson correlation analysis between subjects personality scores and each of the features.(p < 0.05 are bolded)
+
+assets/previous_work-63d75.png
+
+Predicting Personality
+- Regression analysis in Weka:
+  - Gaussian Process and ZeroR
+  - Each 10-fold cross-validation with 10 iterations
+
+Result:
+
+assets/previous_work-a8282.png
