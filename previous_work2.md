@@ -27,9 +27,28 @@ Experiment:
 
   ![before](assets/previous_work2-eb7a4.png)
 
+  Clean:
+  - Removed messages containing re-tweets
+  - stop list
+
 - Extract Features:
+  Set 1:(BOW)
+  Set 2:(Style Markers)86 features
+    - count(characters, long words, whitespace, punctuation, hyperlinks, parts of speech)
+    - overal message characteristics (total length, total words)
+    - frequency values (characters per message by %, punctuation per message by %)
+
 - Build models:
+  - Use Sequential Minimal Optimization (SMO) algorith included in WEKA 2.6.8. A linear kernel with default parameters was used.
+  - 5x2 cross validation design
 - Evaluate Results:
+  - 15 experiments
+  - Each experiment was run multiple times with values such as root mean suared error (RMSE) recorded to verify statistical significance. Build time was also noted as a measure of efficiency.
+
+  Results
+
+  ![before](assets/previous_work2-72302.png)
+
 
 
 Conclusion:
