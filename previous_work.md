@@ -39,7 +39,7 @@ In this paper they exclude Standard count and other dimmensions features to elim
 # Model
 Use first Pearson correlation analysis between subjects personality scores and each of the features.(p < 0.05 are bolded)
 
-assets/previous_work-63d75.png
+![before](assets/previous_work-63d75.png)
 
 Predicting Personality
 - Regression analysis in Weka:
@@ -48,4 +48,4 @@ Predicting Personality
 
 Result:
 
-assets/previous_work-a8282.png
+![before](assets/previous_work-a8282.png)
