@@ -26,7 +26,7 @@ The framework purposed to meet the goal has four steps: Data Collection, Feature
 ## Data Collection
 Data was retrieved from a public database released by Twitter for research purpose on year 2014 containing infomation about tweets. In this research we only are going to use two dimensions of this dataset cointaining the twitter id(user) and tweet(body).
 
-The raw dataset contains over 600GB of information in different languages so first users related to Entrepenuership and Startups were selected as target users for the experiments. To select this users Twitter API was used to get more information about the user and be able to filter user that are related to this field
+The raw dataset contains over 700GB containing 665,246,249 observations in different languages. Each instance has information about: location, tweet text,  so first users related to Entrepenuership and Startups were selected as target users for the experiments. To select this users Twitter API was used to get more information about the user and be able to filter user that are related to this field
 
 Then the tweets text was preprocessed to remove messages that don't provide value for the learning and testing. For the purpose of this research the following filters were applied:
 1. Tweets that contains quotes were removed because don't represent a writing style of the user.
@@ -37,6 +37,7 @@ Then the tweets text was preprocessed to remove messages that don't provide valu
 6. Users related to companies or accounts that are used for marketing purposed were removed
 
 After the preprocessing we end up with a clean dataset of independent users from the domain related to Entrepenuership and Startups that has tweets in english, not re-tweets or quotes. This is the dataset used for the following experiments.
+
 
 ## Features Extraction
 
