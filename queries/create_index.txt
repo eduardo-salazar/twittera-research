@@ -1,0 +1,1 @@
+db.tweets_en.ensureIndex({"user.id": 1})
